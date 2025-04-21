@@ -1,49 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow: hidden;
+    margin: 0;
 }
 
-/* .header  */
+.header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid red;
+    align-items: center;
+}
 
 .top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: start;
+    gap: 48px;
+    flex: 0 1 0;
+    align-items: baseline;
 }
 
-/* .logo
+.logo {
+    width: 400px;
+    font-size: 24px;
+    color: #F9FAF8;
+    border: 3px solid red;
+    margin-top: 24px;
 
-.header-links  */
+}
+
+.header-links {
+    margin-top: 0;
+    width: 500px;
+    justify-content: end;
+    display: flex;
+    border: 3px solid red;
+    margin-top: 24px;
+}
 
 .header-content {
     display: flex;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 48px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+
 }
 
-/* .greating
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 400px;
+    border: 3px solid red;
+}
 
-#header-greating
+#header-greating {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
 
-#header-text
+/* #header-text {} */
 
-#top-button */
+#top-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    align-self: baseline;
+}
 
 .image_placeholder {
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 250px;
     background-color: gray;
+    align-content: center;
+    text-align: center;
 }
 
 ul {
-    display: flex;
-    margin: 0;
+    padding-left: 0;
     list-style: none;
+
     gap: 24px;
 }
 
 a {
     text-decoration-line: none;
+    color: #E5E7EB;
 }
